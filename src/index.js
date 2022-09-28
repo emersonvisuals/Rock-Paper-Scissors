@@ -3,6 +3,7 @@ import './styles/main.scss'
 import iconPaperImport from './assets/icon-paper.svg';
 import iconScissorsImport from './assets/icon-scissors.svg';
 import iconRockImport from './assets/icon-rock.svg';
+import triangleBackground from './assets/bg-triangle.svg';
 
 
 const iconPaper = document.querySelector('.paper');

@@ -14,6 +14,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/bg-triangle.svg":
+/*!************************************!*\
+  !*** ./src/assets/bg-triangle.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "bg-triangle.svg";
+
+/***/ }),
+
 /***/ "./src/assets/icon-paper.svg":
 /*!***********************************!*\
   !*** ./src/assets/icon-paper.svg ***!
@@ -126,6 +136,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_icon_paper_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/icon-paper.svg */ "./src/assets/icon-paper.svg");
 /* harmony import */ var _assets_icon_scissors_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/icon-scissors.svg */ "./src/assets/icon-scissors.svg");
 /* harmony import */ var _assets_icon_rock_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/icon-rock.svg */ "./src/assets/icon-rock.svg");
+/* harmony import */ var _assets_bg_triangle_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/bg-triangle.svg */ "./src/assets/bg-triangle.svg");
+
 
 
 
@@ -140,4 +152,4 @@ iconRock.src = _assets_icon_rock_svg__WEBPACK_IMPORTED_MODULE_3__;
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleb1bdf8414d883cceddca.js.map
+//# sourceMappingURL=bundle3cde16c893286db41224.js.map

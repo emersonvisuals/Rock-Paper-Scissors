@@ -16,7 +16,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 2rem 5rem 2rem;
+  padding: 0 2rem 4rem 2rem;
 }
 main .scoreContainer {
   display: flex;
@@ -60,8 +60,12 @@ section {
 }
 section .optionsContainer {
   width: 20rem;
-  height: 20rem;
+  height: 18rem;
   position: relative;
+  background-image: url(bg-triangle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
 }
 section .optionsContainer .paperOption {
   position: absolute;
@@ -77,6 +81,7 @@ section .optionsContainer .paperOption .paperBackground {
   position: relative;
   -webkit-box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 7.5px 0px 0px hsl(230deg, 64%, 49%);
+  cursor: pointer;
 }
 section .optionsContainer .paperOption .paperBackground .paperInnerBackground {
   background-color: white;
@@ -105,6 +110,7 @@ section .optionsContainer .scissorsOption .scissorsBackground {
   -webkit-box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 7.5px 0px 0px hsl(230deg, 64%, 49%);
   box-shadow: 0px 7.5px 0px 0px hsl(39deg, 86%, 38%);
+  cursor: pointer;
 }
 section .optionsContainer .scissorsOption .scissorsBackground .scissorsInnerBackground {
   background-color: white;
@@ -120,7 +126,7 @@ section .optionsContainer .scissorsOption .scissorsBackground .scissorsInnerBack
 section .optionsContainer .rockOption {
   position: absolute;
   bottom: 0;
-  left: 30%;
+  left: 6.25rem;
 }
 section .optionsContainer .rockOption .rockBackground {
   border: solid 10px linear-gradient(180deg, hsl(230deg, 89%, 62%), hsl(230deg, 89%, 65%));
@@ -134,6 +140,7 @@ section .optionsContainer .rockOption .rockBackground {
   -webkit-box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 7.5px 0px 0px hsl(230deg, 64%, 49%);
   box-shadow: 0px 7.5px 0px 0px hsl(349deg, 67%, 39%);
+  cursor: pointer;
 }
 section .optionsContainer .rockOption .rockBackground .rockInnerBackground {
   background-color: white;
@@ -147,4 +154,21 @@ section .optionsContainer .rockOption .rockBackground .rockInnerBackground {
   background-color: white;
 }
 
-/*# sourceMappingURL=bundle.4502be4faa4bde3bfbb9.css.map*/
+footer {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+footer button.rules {
+  background-color: transparent;
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=bundle.6c45ab37cdee75d70d32.css.map*/
