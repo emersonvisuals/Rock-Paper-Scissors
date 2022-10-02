@@ -133,6 +133,39 @@ section {
     }
 }
 
+section.absolute {
+    position: absolute;
+    z-index: 1;
+    top:25vh;
+    right:38vw;
+
+    .absoluteContainer {
+        background-color: $white;
+        padding: 2rem 3rem;
+        border-radius: $borderRadius;
+
+        .titleContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0 1rem 0;
+            text-transform: uppercase;
+    
+            img.close {
+                cursor: pointer;
+            }
+        }
+
+        .diagram {
+
+            img.rulesDiagram {
+                font-family: $fontFamily;
+            }
+        }
+    }
+}
+
+
 footer {
     position: absolute;
     bottom: 3rem;

@@ -154,6 +154,31 @@ section .optionsContainer .rockOption .rockBackground .rockInnerBackground {
   background-color: white;
 }
 
+section.absolute {
+  position: absolute;
+  z-index: 1;
+  top: 25vh;
+  right: 38vw;
+}
+section.absolute .absoluteContainer {
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+}
+section.absolute .absoluteContainer .titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 1rem 0;
+  text-transform: uppercase;
+}
+section.absolute .absoluteContainer .titleContainer img.close {
+  cursor: pointer;
+}
+section.absolute .absoluteContainer .diagram img.rulesDiagram {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 footer {
   position: absolute;
   bottom: 3rem;
@@ -171,4 +196,4 @@ footer button.rules {
   cursor: pointer;
 }
 
-/*# sourceMappingURL=bundle.6c45ab37cdee75d70d32.css.map*/
+/*# sourceMappingURL=bundle.b78babe4ec4c9894c4b5.css.map*/

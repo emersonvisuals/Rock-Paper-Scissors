@@ -24,6 +24,16 @@ module.exports = __webpack_require__.p + "bg-triangle.svg";
 
 /***/ }),
 
+/***/ "./src/assets/icon-close.svg":
+/*!***********************************!*\
+  !*** ./src/assets/icon-close.svg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "icon-close.svg";
+
+/***/ }),
+
 /***/ "./src/assets/icon-paper.svg":
 /*!***********************************!*\
   !*** ./src/assets/icon-paper.svg ***!
@@ -51,6 +61,16 @@ module.exports = __webpack_require__.p + "icon-rock.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "icon-scissors.svg";
+
+/***/ }),
+
+/***/ "./src/assets/image-rules.svg":
+/*!************************************!*\
+  !*** ./src/assets/image-rules.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "image-rules.svg";
 
 /***/ })
 
@@ -137,6 +157,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_icon_scissors_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/icon-scissors.svg */ "./src/assets/icon-scissors.svg");
 /* harmony import */ var _assets_icon_rock_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/icon-rock.svg */ "./src/assets/icon-rock.svg");
 /* harmony import */ var _assets_bg_triangle_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/bg-triangle.svg */ "./src/assets/bg-triangle.svg");
+/* harmony import */ var _assets_image_rules_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/image-rules.svg */ "./src/assets/image-rules.svg");
+/* harmony import */ var _assets_icon_close_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/icon-close.svg */ "./src/assets/icon-close.svg");
+
+
 
 
 
@@ -148,8 +172,12 @@ var iconScissors = document.querySelector('.scissors');
 iconScissors.src = _assets_icon_scissors_svg__WEBPACK_IMPORTED_MODULE_2__;
 var iconRock = document.querySelector('.rock');
 iconRock.src = _assets_icon_rock_svg__WEBPACK_IMPORTED_MODULE_3__;
+var rules = document.querySelector('.rulesDiagram');
+rules.src = _assets_image_rules_svg__WEBPACK_IMPORTED_MODULE_5__;
+var close = document.querySelector('.close');
+close.src = _assets_icon_close_svg__WEBPACK_IMPORTED_MODULE_6__;
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle3cde16c893286db41224.js.map
+//# sourceMappingURL=bundlede22948b06ff2b37d0d9.js.map
